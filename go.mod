@@ -3,6 +3,7 @@ module SlaveSpider
 go 1.20
 
 require (
+	github.com/fatih/structs v1.1.0 // indirect
 	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/jinzhu/now v1.1.4 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect

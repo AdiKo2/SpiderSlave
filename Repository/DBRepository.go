@@ -3,10 +3,18 @@ package Repository
 import "time"
 
 type HomeUser struct {
-	DisplayName string
-	FirstName   string
-	LastName    string
-	Email       string
+	DisplayName string `xml:"displayName"`
+	FirstName   string `xml:"firstName"`
+	LastName    string `xml:"lastName"`
+	Email       string `xml:"email"`
+	//IpPhone
+}
+
+type HomeUserPointer struct {
+	DisplayName *string
+	FirstName   *string
+	LastName    *string
+	Email       *string
 }
 
 type EnvStatus struct {
