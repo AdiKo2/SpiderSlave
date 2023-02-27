@@ -1,5 +1,5 @@
 database:
-  name: testDB
+  name: spider
   server:
     host: "localhost"
     port: 5432
